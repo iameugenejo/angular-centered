@@ -1,11 +1,20 @@
 {
   "name": "angular-centered",
   "version": "1.0.0",
+  "engine": {
+    "node": "~0.12"
+  },
   "description": "AngularJS directive - vertically and horizontally positioned overlay container",
   "main": "angular-centered.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/iameugenejo/angular-centered"
+  },
+  "scripts": {
+    "pretest": "npm install && bower install",
+    "test": "node_modules/karma/bin/karma start karma.conf.js --no-auto-watch --single-run --reporters 'coverage,dots' && npm run coverage-average",
+    "test-watch": "node_modules/karma/bin/karma start karma.conf.js --auto-watch",
+    "coverage-average": "./node_modules/.bin/coverage-average coverage/report-summary/text-summary.txt  --limit 95"
   },
   "keywords": [
     "center",
@@ -23,7 +32,7 @@
   },
   "homepage": "https://github.com/iameugenejo/angular-centered",
   "dependencies": {
-      "angular": ">=1.2.0"
+    "angular": ">=1.2.0"
   },
   "ignore": [
     "**/.*",
@@ -31,5 +40,15 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "coverage-average": "^1.0.3",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.9",
+    "karma-coverage": "^0.5.1",
+    "karma-jasmine": "^0.3.6",
+    "karma-notify-reporter": "^0.1.1",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "phantomjs": "^1.9.18"
+  }
 }
