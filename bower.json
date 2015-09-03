@@ -1,0 +1,30 @@
+{
+  "name": "angular-centered",
+  "main": "angular-centered.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/iameugenejo/angular-centered",
+  "authors": [
+    "Eugene Jo <i.am.eugene.jo@gmail.com>"
+  ],
+  "description": "AngularJS directive - vertically and horizontally positioned overlay container",
+  "keywords": [
+    "center",
+    "vertical",
+    "horizontal",
+    "directive",
+    "angular",
+    "overlay",
+    "floating"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.0"
+  }
+}
