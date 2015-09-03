@@ -1,5 +1,6 @@
 angular-centered
 ================
+[![Build Status](https://travis-ci.org/iameugenejo/angular-centered.svg?branch=master)](https://travis-ci.org/iameugenejo/angular-centered)
 
 An angular directive for rendering a vertically and horizontally positioned overlay.
 
