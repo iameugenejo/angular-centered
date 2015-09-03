@@ -1,0 +1,13 @@
+# Created by https://www.gitignore.io/api/bower
+
+coverage
+
+### Bower ###
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+
+### NPM ###
+node_modules
+
