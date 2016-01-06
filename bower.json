@@ -1,6 +1,9 @@
 {
   "name": "angular-centered",
-  "main": "angular-centered.js",
+  "main": [
+    "angular-centered.js",
+    "angular-centered.css"
+  ],
   "version": "1.0.0",
   "homepage": "https://github.com/iameugenejo/angular-centered",
   "authors": [
