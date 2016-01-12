@@ -9,11 +9,12 @@
   z-index:9999;
 
 }
+
 .angular-centered {
   display: table-cell;
   vertical-align: middle;
+}
 
-  > * {
-    pointer-events: auto;
-  }
+.angular-centered> * {
+  pointer-events: auto;
 }
