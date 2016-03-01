@@ -4,7 +4,7 @@
     "angular-centered.js",
     "angular-centered.css"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/iameugenejo/angular-centered",
   "authors": [
     "Eugene Jo <i.am.eugene.jo@gmail.com>"
@@ -28,9 +28,9 @@
     "tests"
   ],
   "dependencies": {
-    "angular": ">=1.2.0"
+    "angular": "~1.4.9"
   },
   "devDependencies": {
-    "angular-mocks": "~1.4.5"
+    "angular-mocks": "~1.4.9"
   }
 }
